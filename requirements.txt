@@ -1,0 +1,75 @@
+# Dependências principais para análise de dados
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+scipy>=1.7.0
+
+# Jupyter e ferramentas de desenvolvimento
+jupyter>=1.0.0
+notebook>=6.4.0
+ipywidgets>=7.6.0
+
+# Utilitários
+tqdm>=4.62.0
+openpyxl>=3.0.0  # Para salvar arquivos Excel se necessário
+
+# Análise estatística avançada
+statsmodels>=0.12.0
+
+# Visualizações interativas adicionais
+bokeh>=2.4.0
+
+# Processamento de texto (caso necessário)
+nltk>=3.6.0
+
+# === NOVAS DEPENDÊNCIAS PARA ANÁLISE DE QUALIDADE EXPANDIDA ===
+
+# Análise de dados ausentes e qualidade
+missingno>=0.5.0  # Visualizações avançadas de dados ausentes
+
+# Visualizações interativas avançadas
+plotly>=5.0.0  # Já incluído acima - gráficos interativos
+dash>=2.0.0  # Para dashboards interativos (opcional)
+
+# Análise estatística avançada adicional
+scipy>=1.7.0  # Já incluído acima - testes estatísticos
+# Funções específicas utilizadas:
+# - scipy.stats.normaltest
+# - scipy.stats.jarque_bera  
+# - scipy.stats.shapiro
+# - scipy.stats.skew
+# - scipy.stats.kurtosis
+# - scipy.stats.zscore
+
+# Processamento de strings e regex
+# re (built-in Python) - análise de padrões
+# difflib (built-in Python) - similaridade textual
+
+# Coleções e estruturas de dados
+# collections (built-in Python) - Counter para análises
+
+# Data e tempo
+# datetime (built-in Python) - timestamps e análise temporal
+
+# Warnings e configurações
+# warnings (built-in Python) - supressão de avisos
+
+# === VERSÕES RECOMENDADAS PARA COMPATIBILIDADE ===
+# Python >= 3.8
+# Jupyter Lab >= 3.0 (recomendado)
+# Jupyter Notebook >= 6.4
+
+# === INSTALAÇÃO OPCIONAL PARA PERFORMANCE ===
+# numba>=0.56.0  # Aceleração de cálculos numéricos (opcional)
+# dask>=2022.1.0  # Processamento de grandes datasets (opcional)
+
+# === DEPENDÊNCIAS DE DESENVOLVIMENTO (OPCIONAL) ===
+# black>=22.0.0  # Formatação de código
+# flake8>=4.0.0  # Linting
+# pytest>=7.0.0  # Testes unitários 
